@@ -1648,3 +1648,732 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.15-00.35.18:704][193]LogFab: Display: User logged in
 [2025.09.15-00.35.18:704][193]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.09.15-00.35.18:954][223]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-3m1mFhMtxEm-wkZOIGQP0A-fnvzL6XOXk2di_UJyI2T5A]
+[2025.09.15-00.37.06:894][335]LogDerivedDataCache: C:/Users/rhipr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.15-00.40.57:123][ 25]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 345.539978
+[2025.09.15-00.40.58:457][ 29]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.15-00.40.58:457][ 29]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 346.540131, Update Interval: 325.401154
+[2025.09.15-00.42.20:156][401]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.09.15-00.42.22:452][670]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.09.15-00.42.40:091][672]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.09.15-00.42.40:206][675]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Total job queries 1,328, among them cache hits 212 (15.96%), DDC hits 1,108 (83.43%), Duplicates 3 (0.23%)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Tracking 1,113 distinct input hashes that result in 872 distinct outputs (78.35%)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: RAM used: 565.15 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Shaders Compiled: 5
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100%)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.05 s
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Job execution time: average 1.42 s, max 1.85 s
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Job life time (pending + execution): average 1.47 s, max 1.89
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Shader code size: average 7.187 KiB, min 5.133 KiB, max 10.801 KiB
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.89 s
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Average processing rate: 2.64 jobs/sec
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Total thread time: 2.495 s
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Total thread preprocess time: 18.402 s
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Percentage time preprocessing: 737.50%
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Effective parallelization: 1.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.53% of total time (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.73% of total time (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                                 FLumenCardPS - 15.55% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.38% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.81% of total time (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: === Material stats ===
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Materials Translated:    135
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Material Translation Only: 0.04 s (48%)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.09.15-00.44.16:081][290]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.46.26:767][682]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 675.183716
+[2025.09.15-00.46.27:443][685]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.15-00.46.27:443][685]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 675.851562, Update Interval: 353.783386
+[2025.09.15-00.47.00:577][538]Cmd: DELETE
+[2025.09.15-00.47.00:577][538]Cmd: ACTOR DELETE
+[2025.09.15-00.47.00:587][538]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.15-00.47.00:625][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.09.15-00.47.00:626][538]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2025.09.15-00.47.18:947][645]Cmd: TRANSACTION UNDO
+[2025.09.15-00.47.18:947][645]LogEditorTransaction: Undo Clicking on Actors
+[2025.09.15-00.48.32:447][615]Cmd: TRANSACTION UNDO
+[2025.09.15-00.48.32:447][615]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.48.39:682][358]Cmd: TRANSACTION UNDO
+[2025.09.15-00.48.39:682][358]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.48.40:078][370]Cmd: TRANSACTION UNDO
+[2025.09.15-00.48.40:078][370]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.49.47:416][512]Cmd: TRANSACTION UNDO
+[2025.09.15-00.49.47:416][512]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Total job queries 1,333, among them cache hits 212 (15.90%), DDC hits 1,108 (83.12%), Duplicates 3 (0.23%)
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Tracking 1,118 distinct input hashes that result in 877 distinct outputs (78.44%)
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: RAM used: 566.71 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Average time worker was idle: 281.89 s
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.05 s
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Job execution time: average 1.43 s, max 1.94 s
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Job life time (pending + execution): average 1.46 s, max 1.95
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Shader code size: average 7.76 KiB, min 5.133 KiB, max 12.086 KiB
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.85 s
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Average processing rate: 2.60 jobs/sec
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Total thread time: 5.147 s
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Total thread preprocess time: 18.45 s
+[2025.09.15-00.50.16:083][592]LogShaderCompilers: Display: Percentage time preprocessing: 358.44%
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Effective parallelization: 1.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.97 sec, max 0.99 sec, min 0.94 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.40 sec, max 0.42 sec, min 0.39 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.34 sec, max 0.35 sec, min 0.33 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.34 sec, max 0.35 sec, min 0.32 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.51% of total time (compiled    2 times, average 0.97 sec, max 0.99 sec, min 0.94 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.58% of total time (compiled    2 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                                 FLumenCardPS - 15.66% of total time (compiled    2 times, average 0.40 sec, max 0.42 sec, min 0.39 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.23% of total time (compiled    2 times, average 0.34 sec, max 0.35 sec, min 0.33 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.02% of total time (compiled    2 times, average 0.34 sec, max 0.35 sec, min 0.32 sec)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: === Material stats ===
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Materials Translated:    135
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Material Translation Only: 0.04 s (48%)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.09.15-00.50.16:084][592]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.52.15:088][341]Cmd: TRANSACTION UNDO
+[2025.09.15-00.52.15:088][341]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.52.27:897][635]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1036.313599
+[2025.09.15-00.52.28:278][680]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.15-00.52.28:278][680]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1036.685791, Update Interval: 353.126007
+[2025.09.15-00.52.49:772][926]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.15-00.52.49:777][926]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.09.15-00.52.49:777][926]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.09.15-00.52.49:785][926]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 6.984 ms
+[2025.09.15-00.52.49:785][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-00.52.49:794][926]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.09.15-00.52.49:794][926]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.09.15-00.52.49:794][926]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.15-00.52.49:798][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004507s)
+[2025.09.15-00.52.49:798][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004548s)
+[2025.09.15-00.52.49:807][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.15-00.52.49:810][926]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.09.15-00.52.49:811][926]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.15-00.52.49:811][926]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.15-00.52.49:811][926]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.15-00.52.49:811][926]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.15-00.52.49:812][926]LogWorldPartition: Display: WorldPartition initialize took 1.126 ms (total: 51.404 ms)
+[2025.09.15-00.52.49:812][926]LogPlayLevel: PIE: World Init took: (0.002403s)
+[2025.09.15-00.52.49:813][926]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.09.15-00.52.49:813][926]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-00.52.49:813][926]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-00.52.49:813][926]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-00.52.49:813][926]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-00.52.49:813][926]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.15-00.52.49:813][926]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-00.52.49:813][926]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.15-00.52.49:813][926]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-00.52.49:813][926]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-00.52.49:813][926]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-00.52.49:813][926]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-00.52.49:816][926]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.15-00.52.49:834][926]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scarlett Solo 4th Gen)
+[2025.09.15-00.52.49:834][926]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-00.52.49:834][926]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-00.52.49:834][926]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-00.52.49:835][926]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.09.15-00.52.49:835][926]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.09.15-00.52.49:836][926]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.09.15-00.52.49:836][926]LogInit: FAudioDevice initialized with ID 2.
+[2025.09.15-00.52.49:836][926]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.09.15-00.52.49:836][926]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2025.09.15-00.52.49:836][926]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.15-00.52.49:840][926]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.15-00.52.49:842][926]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.15-10.52.49
+[2025.09.15-00.52.49:842][926]LogWorld: Bringing up level for play took: 0.001765
+[2025.09.15-00.52.49:844][926]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.09.15-00.52.49:856][926]PIE: Server logged in
+[2025.09.15-00.52.49:857][926]PIE: Play in editor total start time 0.079 seconds.
+[2025.09.15-00.53.01:635][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-00.53.01:635][285]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.15-00.53.01:635][285]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-00.53.01:635][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-00.53.01:635][285]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.09.15-00.53.01:638][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-00.53.01:641][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-00.53.01:650][285]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.15-00.53.01:650][285]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.15-00.53.01:650][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.09.15-00.53.01:653][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.09.15-00.53.01:655][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-00.53.01:657][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.15-00.53.01:726][286]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.09.15-00.53.03:349][469]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.15-00.53.03:354][469]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.09.15-00.53.03:354][469]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.09.15-00.53.03:356][469]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.802 ms (total: 9.786 ms)
+[2025.09.15-00.53.03:357][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-00.53.03:384][469]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.15-00.53.03:387][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003286s)
+[2025.09.15-00.53.03:387][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003332s)
+[2025.09.15-00.53.03:395][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.09.15-00.53.03:396][469]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.09.15-00.53.03:397][469]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.15-00.53.03:397][469]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.15-00.53.03:397][469]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.15-00.53.03:397][469]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.15-00.53.03:399][469]LogWorldPartition: Display: WorldPartition initialize took 1.130 ms (total: 52.535 ms)
+[2025.09.15-00.53.03:399][469]LogPlayLevel: PIE: World Init took: (0.002315s)
+[2025.09.15-00.53.03:399][469]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.09.15-00.53.03:399][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-00.53.03:399][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-00.53.03:399][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-00.53.03:399][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-00.53.03:399][469]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.15-00.53.03:399][469]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-00.53.03:399][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.15-00.53.03:399][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-00.53.03:399][469]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-00.53.03:399][469]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-00.53.03:399][469]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-00.53.03:401][469]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.15-00.53.03:419][469]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scarlett Solo 4th Gen)
+[2025.09.15-00.53.03:419][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-00.53.03:419][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-00.53.03:419][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-00.53.03:419][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.09.15-00.53.03:419][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.09.15-00.53.03:421][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.09.15-00.53.03:422][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.09.15-00.53.03:422][469]LogInit: FAudioDevice initialized with ID 3.
+[2025.09.15-00.53.03:422][469]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2025.09.15-00.53.03:422][469]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.09.15-00.53.03:424][469]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.15-00.53.03:426][469]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.15-10.53.03
+[2025.09.15-00.53.03:426][469]LogWorld: Bringing up level for play took: 0.001870
+[2025.09.15-00.53.03:428][469]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2025.09.15-00.53.03:433][469]PIE: Server logged in
+[2025.09.15-00.53.03:434][469]PIE: Play in editor total start time 0.08 seconds.
+[2025.09.15-00.53.06:234][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-00.53.06:234][784]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.15-00.53.06:234][784]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-00.53.06:235][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-00.53.06:235][784]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.09.15-00.53.06:237][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-00.53.06:240][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-00.53.06:249][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-00.53.06:249][784]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.09.15-00.53.06:250][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.09.15-00.53.06:251][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.09.15-00.53.06:256][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.09.15-00.53.06:322][785]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.09.15-00.53.11:937][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.15-00.53.11:982][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.09.15-00.53.11:990][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.09.15-00.53.11:999][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.09.15-00.53.12:001][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1
+[2025.09.15-00.53.12:001][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/C9C8NKPQ680JETAE5ROTT1A77C93954183F4FA788F438498D21C44.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset'
+[2025.09.15-00.53.12:005][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J
+[2025.09.15-00.53.12:005][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/XWFFRCIJ8QK4NRO30ALA6J875D067E4FA5597AD9E38EB11C3A8401.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset'
+[2025.09.15-00.53.12:007][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW
+[2025.09.15-00.53.12:009][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/7JQC72ZY37QM4IT43WD5CW2E188FCA482F00AD5F99898F0AA7F40E.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset'
+[2025.09.15-00.53.12:011][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2
+[2025.09.15-00.53.12:012][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/O43ETCZTFMLWWH1CJ941H2E623C1544B3A060D5F58A283F4B36649.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset'
+[2025.09.15-00.53.12:014][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR
+[2025.09.15-00.53.12:015][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/5PI42YRDC8HSSG6BVV2GRR379C9F594ABB59861AC3539C212EDF80.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset'
+[2025.09.15-00.53.12:017][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96
+[2025.09.15-00.53.12:017][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/IM858T68EBXCBX1T2FNR9611A956B64A373EF9D104AC9474D90044.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset'
+[2025.09.15-00.53.12:020][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR
+[2025.09.15-00.53.12:020][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/BEYC27T14FHBU6LF2F60RRAB7815B844D9214AE014E5A57BFA94F0.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset'
+[2025.09.15-00.53.12:023][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06
+[2025.09.15-00.53.12:024][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/CO9MG7REJF8N8AQFYRCI061679ED524D04FD2DE0D0A38E1A1B2FE8.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset'
+[2025.09.15-00.53.12:026][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF
+[2025.09.15-00.53.12:027][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/K2YM0JIRZ78IHGM8W2QBAFF9DFADAA4D1E73299FCC04805D3A06E8.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset'
+[2025.09.15-00.53.12:029][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I
+[2025.09.15-00.53.12:029][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/9H7TKAXH9DD8KI3TIXGI2I8D17C64941F2359108F2DD91D727BC86.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset'
+[2025.09.15-00.53.12:031][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P
+[2025.09.15-00.53.12:032][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/OTJMGDDXDV5TI7982YKZ5P2992BAA1435953959F3E64ADB5F0C00F.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset'
+[2025.09.15-00.53.12:035][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF
+[2025.09.15-00.53.12:036][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/UUYHDUFQAXTRRN4RVOPIUF2827D1B44FC542532CF933939627FF86.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset'
+[2025.09.15-00.53.12:038][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO
+[2025.09.15-00.53.12:039][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/9VVR39MG0K7W5GQIEFE7SO10FB50904DD53B32FD1827925DD99649.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset'
+[2025.09.15-00.53.12:041][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C
+[2025.09.15-00.53.12:042][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/6B9RJI3FDPCETRKXUXCQ4CACCDDD3E4793E01A548965A32547D9FA.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset'
+[2025.09.15-00.53.12:043][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL
+[2025.09.15-00.53.12:044][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/H8YL2PPHZPBTI74SUD0RNLB965D7E64032294E9AF0669DD997A6AE.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset'
+[2025.09.15-00.53.12:046][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61
+[2025.09.15-00.53.12:047][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/Q7Y1URWWFS0TXGWUTO3S61E7043EE44E6A74214F5E8D8CF3AD6AC4.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset'
+[2025.09.15-00.53.12:049][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ
+[2025.09.15-00.53.12:049][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/6LXV4Y6DE3LUT705XNU4DZ45278D4E4BD01C9D279786A68CC6B2A5.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset'
+[2025.09.15-00.53.12:052][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8
+[2025.09.15-00.53.12:052][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/BBOCKSZY1GVHTFRX0PR0O89F73240F44C4D0CC0594099FA83D5297.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset'
+[2025.09.15-00.53.12:055][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04
+[2025.09.15-00.53.12:056][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/1IKKDYS7RULH8FRYRPPF04EF787EA1411C82348CA095AFCB4647C6.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset'
+[2025.09.15-00.53.12:059][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y
+[2025.09.15-00.53.12:059][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/9BWDWCNL7OZT2HTML9LK1Y54C3C0614A1F4CED418F3880573BD97B.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset'
+[2025.09.15-00.53.12:061][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN
+[2025.09.15-00.53.12:062][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/8RB55FM1HBEUVO4IOQC4YNE91CDB7644C31BAC615D38AE8699F9DB.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset'
+[2025.09.15-00.53.12:064][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F
+[2025.09.15-00.53.12:065][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/CQR16QFDKKEYP53M51TV4F8798D0344AE56F1E3D7EB9A77E5DCD72.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset'
+[2025.09.15-00.53.12:067][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR
+[2025.09.15-00.53.12:068][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/NMHOKL5LGQDOAAG00FUMZR08E4518F4B8BCDA2525413A0DA252A58.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset'
+[2025.09.15-00.53.12:070][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG
+[2025.09.15-00.53.12:071][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/GK06JAEJ82TQ0GA2QB0DJG7BD5955C49C7089C3EDF068B976D1576.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset'
+[2025.09.15-00.53.12:073][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/YU/6EBWVFM595EYQFSJNLQPYM
+[2025.09.15-00.53.12:073][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/6EBWVFM595EYQFSJNLQPYMF88FB96945D17E52B4E0FBB18DD4E86C.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/YU/6EBWVFM595EYQFSJNLQPYM.uasset'
+[2025.09.15-00.53.12:075][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/S3/CFJV5TXE6EHXNQ4BXSUATY
+[2025.09.15-00.53.12:075][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/CFJV5TXE6EHXNQ4BXSUATY9E4083294068AB920E56FD826E7AC9F4.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/S3/CFJV5TXE6EHXNQ4BXSUATY.uasset'
+[2025.09.15-00.53.12:077][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/W4/B7XN69E860DRQ0BISHQJ1A
+[2025.09.15-00.53.12:077][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/B7XN69E860DRQ0BISHQJ1AA327BF894C4ED156BD8F5EA68817DEE6.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/W4/B7XN69E860DRQ0BISHQJ1A.uasset'
+[2025.09.15-00.53.12:079][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/KV/6Z0XQT8V0UZ32PXNDYMP1M
+[2025.09.15-00.53.12:080][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/6Z0XQT8V0UZ32PXNDYMP1MD8DF245C45A3F16B825ABA9F402ADCA8.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/KV/6Z0XQT8V0UZ32PXNDYMP1M.uasset'
+[2025.09.15-00.53.12:082][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OU/IRGVJ0KP3LXM5D34U4VDHB
+[2025.09.15-00.53.12:082][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/IRGVJ0KP3LXM5D34U4VDHBAE484ADC4396CA8B169A18916D0BAFB4.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OU/IRGVJ0KP3LXM5D34U4VDHB.uasset'
+[2025.09.15-00.53.12:083][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/2I/TGN50FIQXAF7MJ5KJGUFJS
+[2025.09.15-00.53.12:083][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/TGN50FIQXAF7MJ5KJGUFJSD6A462D24F264C22512411B991F80875.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/2I/TGN50FIQXAF7MJ5KJGUFJS.uasset'
+[2025.09.15-00.53.12:085][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/97/AVIBJRAZGWRYEHTUC4PRIE
+[2025.09.15-00.53.12:085][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/AVIBJRAZGWRYEHTUC4PRIE6C280E7043B18E248A984AAF5688BE6C.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/97/AVIBJRAZGWRYEHTUC4PRIE.uasset'
+[2025.09.15-00.53.12:087][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/07/KQU8KAT2CG71LOL1UMFQQT
+[2025.09.15-00.53.12:087][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/KQU8KAT2CG71LOL1UMFQQT16F238F44810CFCD4A7EB7979D98BC79.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/07/KQU8KAT2CG71LOL1UMFQQT.uasset'
+[2025.09.15-00.53.12:090][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/GG/OF5T4XU2LRH1RQ1AETD637
+[2025.09.15-00.53.12:090][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/OF5T4XU2LRH1RQ1AETD637552BC9034AFDC336FCC886AB10BE68C7.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/GG/OF5T4XU2LRH1RQ1AETD637.uasset'
+[2025.09.15-00.53.12:091][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/TW/JZLXJ5DBM2PSXGBL6XHEM7
+[2025.09.15-00.53.12:092][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/JZLXJ5DBM2PSXGBL6XHEM75003AD0540E92F8BD1F5F2A412D6456B.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/TW/JZLXJ5DBM2PSXGBL6XHEM7.uasset'
+[2025.09.15-00.53.12:093][422]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/B2/38GK9F5K516V1Y4JJC6P1B
+[2025.09.15-00.53.12:093][422]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/38GK9F5K516V1Y4JJC6P1B46DE431E41E3FB14B7B4B79D2CEFA7CE.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/B2/38GK9F5K516V1Y4JJC6P1B.uasset'
+[2025.09.15-00.53.12:109][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.780 ms (total: 427.662 ms)
+[2025.09.15-00.53.12:146][422]LogContentValidation: Display: Starting to validate 35 assets
+[2025.09.15-00.53.12:146][422]LogContentValidation: Enabled validators:
+[2025.09.15-00.53.12:146][422]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.15-00.53.12:146][422]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.15-00.53.12:146][422]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.15-00.53.12:146][422]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.15-00.53.12:146][422]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.15-00.53.12:146][422]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.15-00.53.12:146][422]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.09.15-00.53.50:162][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.53.50:162][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.53.50:162][938]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_17
+[2025.09.15-00.53.50:163][938]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_17
+[2025.09.15-00.53.50:877][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.09.15-00.53.50:880][997]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2025.09.15-00.53.50:886][997]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.53.50:886][997]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.53.50:888][997]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D606E04308F02_1335971965
+[2025.09.15-00.53.50:889][997]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D606E04308F02_1335971965
+[2025.09.15-00.53.59:923][924]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D606E04308F02_1335971965.StaticMeshComponent0.
+[2025.09.15-00.54.00:315][970]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D606E04308F02_1335971965.StaticMeshComponent0.
+[2025.09.15-00.55.02:405][947]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.02:405][947]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.55.02:608][952]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.02:608][952]LogEditorTransaction: Undo Scale Elements
+[2025.09.15-00.55.02:775][956]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.02:775][956]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.55.02:908][959]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.02:908][959]LogEditorTransaction: Undo Scale Elements
+[2025.09.15-00.55.03:211][989]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.03:211][989]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.55.03:505][ 22]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.03:505][ 22]LogEditorTransaction: Undo Scale Elements
+[2025.09.15-00.55.03:890][ 65]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.03:890][ 65]LogEditorTransaction: Undo Scale Elements
+[2025.09.15-00.55.04:703][156]Cmd: TRANSACTION UNDO
+[2025.09.15-00.55.04:705][156]LogEditorTransaction: Undo Move Elements
+[2025.09.15-00.55.05:826][285]Cmd: TRANSACTION REDO
+[2025.09.15-00.55.05:826][285]LogEditorTransaction: Redo Move Elements
+[2025.09.15-00.55.17:217][591]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.55.17:217][591]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.55.17:219][591]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_26
+[2025.09.15-00.55.17:219][591]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_26
+[2025.09.15-00.55.18:166][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.09.15-00.55.18:169][683]LogEditorActor: Deleted 0 Actors (0.013 secs)
+[2025.09.15-00.55.18:174][683]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.55.18:174][683]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.55.18:176][683]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D606E04308F02_1423259966
+[2025.09.15-00.55.18:176][683]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D606E04308F02_1423259966
+[2025.09.15-00.56.16:085][955]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.56.16:085][955]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Total job queries 1,364, among them cache hits 220 (16.13%), DDC hits 1,120 (82.11%), Duplicates 3 (0.22%)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Tracking 1,141 distinct input hashes that result in 893 distinct outputs (78.26%)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: RAM used: 572.12 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Average time worker was idle: 226.37 s
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.06 s
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Job execution time: average 1.16 s, max 1.94 s
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Job life time (pending + execution): average 1.19 s, max 1.95
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Shader code size: average 7.22 KiB, min 2.785 KiB, max 12.086 KiB
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.69 s
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Average processing rate: 3.14 jobs/sec
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Total thread time: 9.836 s
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Total thread preprocess time: 18.815 s
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Percentage time preprocessing: 191.29%
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Effective parallelization: 1.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.94 sec, max 0.99 sec, min 0.90 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.50 sec, max 0.54 sec, min 0.43 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.39 sec, max 0.42 sec, min 0.36 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.33 sec, max 0.35 sec, min 0.32 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 28.82% of total time (compiled    3 times, average 0.94 sec, max 0.99 sec, min 0.90 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.39% of total time (compiled    5 times, average 0.50 sec, max 0.54 sec, min 0.43 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.86% of total time (compiled    5 times, average 0.33 sec, max 0.35 sec, min 0.32 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.89% of total time (compiled    3 times, average 0.39 sec, max 0.42 sec, min 0.36 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.05% of total time (compiled    3 times, average 0.33 sec, max 0.35 sec, min 0.32 sec)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: === Material stats ===
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Materials Translated:    135
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Material Translation Only: 0.04 s (48%)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.09.15-00.56.16:086][955]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.56.40:551][789]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.15-00.57.43:663][ 47]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.15-00.57.43:701][ 47]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.09.15-00.57.43:710][ 47]LogStreaming: Display: FlushAsyncLoading(396): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.15-00.57.43:717][ 47]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.09.15-00.57.43:734][ 47]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2025.09.15-00.57.43:758][ 47]LogStaticMesh: Built static mesh [0.05s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.09.15-00.57.43:769][ 47]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.09.15-00.57.43:770][ 47]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.09.15-00.57.46:315][152]LogSlate: Window 'Cube' being destroyed
+[2025.09.15-00.57.46:324][152]LogSlate: Window 'Cube' being destroyed
+[2025.09.15-00.57.46:360][152]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-00.57.46:360][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-00.57.46:404][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.15-00.58.32:526][576]LogActor: Warning: SetReplicates called on non-initialized actor StaticMeshActor_UAID_2CF05D606E04308F02_1423259966. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.09.15-00.58.33:120][646]LogActor: Warning: SetReplicates called on non-initialized actor StaticMeshActor_UAID_2CF05D606E04308F02_1423259966. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.09.15-00.58.35:320][897]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1403.735596
+[2025.09.15-00.58.35:704][943]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.15-00.58.35:704][943]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1404.112183, Update Interval: 324.901276
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Total job queries 1,374, among them cache hits 220 (16.01%), DDC hits 1,120 (81.51%), Duplicates 3 (0.22%)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Tracking 1,151 distinct input hashes that result in 899 distinct outputs (78.11%)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: RAM used: 573.90 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Shaders Compiled: 31
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Jobs assigned 31, completed 31 (100%)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Average time worker was idle: 224.69 s
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.06 s
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Job execution time: average 1.36 s, max 2.27 s
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Job life time (pending + execution): average 1.40 s, max 2.33
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Shader code size: average 7.249 KiB, min 2.785 KiB, max 12.086 KiB
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.02 s
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Jobs were issued in 31 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Average processing rate: 3.44 jobs/sec
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Total thread time: 15.612 s
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Total thread preprocess time: 18.921 s
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Percentage time preprocessing: 121.19%
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Effective parallelization: 1.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 0.98 sec, max 1.06 sec, min 0.90 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.53 sec, max 0.60 sec, min 0.43 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    5 times, average 0.42 sec, max 0.48 sec, min 0.36 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.35 sec, max 0.40 sec, min 0.32 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 31.39% of total time (compiled    5 times, average 0.98 sec, max 1.06 sec, min 0.90 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.75% of total time (compiled    7 times, average 0.53 sec, max 0.60 sec, min 0.43 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.77% of total time (compiled    7 times, average 0.35 sec, max 0.41 sec, min 0.32 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                                 FLumenCardPS - 13.41% of total time (compiled    5 times, average 0.42 sec, max 0.48 sec, min 0.36 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.28% of total time (compiled    5 times, average 0.35 sec, max 0.40 sec, min 0.32 sec)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: === Material stats ===
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Materials Translated:    138
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Material Translation Only: 0.04 s (43%)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.09.15-00.59.16:089][640]LogShaderCompilers: Display: ================================================
+[2025.09.15-00.59.48:721][468]Cmd: TRANSACTION UNDO
+[2025.09.15-00.59.48:721][468]LogEditorTransaction: Undo Clicking on Elements
+[2025.09.15-01.00.44:715][834]Cmd: DELETE
+[2025.09.15-01.00.44:715][834]Cmd: ACTOR DELETE
+[2025.09.15-01.00.44:717][834]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.15-01.00.44:730][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.15-01.00.44:737][834]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2025.09.15-01.00.45:532][912]Cmd: DELETE
+[2025.09.15-01.00.45:532][912]Cmd: ACTOR DELETE
+[2025.09.15-01.00.45:533][912]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.15-01.00.45:543][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.09.15-01.00.45:546][912]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2025.09.15-01.00.47:635][161]Cmd: TRANSACTION UNDO
+[2025.09.15-01.00.47:635][161]LogEditorTransaction: Undo Delete Elements
+[2025.09.15-01.00.49:578][344]Cmd: TRANSACTION REDO
+[2025.09.15-01.00.49:578][344]LogEditorTransaction: Redo Delete Elements
+[2025.09.15-01.01.08:603][492]Cmd: TRANSACTION UNDO
+[2025.09.15-01.01.08:603][492]LogEditorTransaction: Undo Clicking on Elements
+[2025.09.15-01.01.08:963][507]Cmd: TRANSACTION UNDO
+[2025.09.15-01.01.08:963][507]LogEditorTransaction: Undo Delete Elements
+[2025.09.15-01.01.09:410][534]Cmd: TRANSACTION UNDO
+[2025.09.15-01.01.09:410][534]LogEditorTransaction: Undo Clicking on Elements
+[2025.09.15-01.01.09:783][577]Cmd: TRANSACTION UNDO
+[2025.09.15-01.01.09:783][577]LogEditorTransaction: Undo Delete Elements
+[2025.09.15-01.02.06:274][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.09.15-01.02.06:282][930]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/XK/W7Q6A31DUUM8OFGYOVJCC8_Auto1
+[2025.09.15-01.02.06:282][930]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/W7Q6A31DUUM8OFGYOVJCC8_Auto1BF63568545244B86BB65FA8B185FE8E5.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/XK/W7Q6A31DUUM8OFGYOVJCC8_Auto1.uasset'
+[2025.09.15-01.02.06:285][930]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/8L/JQ1PT2HXGVITJF8DIGNNCY_Auto1
+[2025.09.15-01.02.06:285][930]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/JQ1PT2HXGVITJF8DIGNNCY_Auto18E6D4107453775C7A1013AA40652E339.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/8L/JQ1PT2HXGVITJF8DIGNNCY_Auto1.uasset'
+[2025.09.15-01.02.06:285][930]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.021
+[2025.09.15-01.02.06:286][930]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.021
+[2025.09.15-01.03.19:544][147]Cmd: DELETE
+[2025.09.15-01.03.19:544][147]Cmd: ACTOR DELETE
+[2025.09.15-01.03.19:545][147]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.15-01.03.19:555][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.09.15-01.03.19:556][147]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2025.09.15-01.03.20:167][200]Cmd: DELETE
+[2025.09.15-01.03.20:167][200]Cmd: ACTOR DELETE
+[2025.09.15-01.03.20:169][200]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.15-01.03.20:181][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.09.15-01.03.20:184][200]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.09.15-01.03.21:644][369]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.09.15-01.03.22:077][411]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2025.09.15-01.03.25:926][845]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ModelComponent_3' invalid (24 verts, 0 indices).
+[2025.09.15-01.03.25:969][847]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ModelComponent_5' invalid (24 verts, 0 indices).
+[2025.09.15-01.03.26:011][849]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ModelComponent_7' invalid (24 verts, 0 indices).
+[2025.09.15-01.03.50:526][300]Cmd: TRANSACTION UNDO
+[2025.09.15-01.03.50:526][300]LogEditorTransaction: Undo Scale Elements
+[2025.09.15-01.04.24:051][758]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2025.09.15-01.04.27:244][ 77]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1755.653809
+[2025.09.15-01.04.27:594][109]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.15-01.04.27:595][109]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1755.996094, Update Interval: 338.292175
+[2025.09.15-01.04.46:628][ 13]Cmd: TRANSACTION UNDO
+[2025.09.15-01.04.46:628][ 13]LogEditorTransaction: Undo Select Brush Surface
+[2025.09.15-01.05.35:150][287]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.15-01.05.35:155][287]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.09.15-01.05.35:155][287]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.09.15-01.05.35:156][287]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.923 ms (total: 11.710 ms)
+[2025.09.15-01.05.35:156][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-01.05.35:156][287]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.15-01.05.35:162][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005844s)
+[2025.09.15-01.05.35:162][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005879s)
+[2025.09.15-01.05.35:173][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.09.15-01.05.35:178][287]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.09.15-01.05.35:180][287]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.15-01.05.35:180][287]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.15-01.05.35:180][287]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.15-01.05.35:181][287]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.15-01.05.35:182][287]LogWorldPartition: Display: WorldPartition initialize took 1.525 ms (total: 54.061 ms)
+[2025.09.15-01.05.35:182][287]LogPlayLevel: PIE: World Init took: (0.003088s)
+[2025.09.15-01.05.35:183][287]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.09.15-01.05.35:183][287]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-01.05.35:183][287]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-01.05.35:183][287]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-01.05.35:183][287]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-01.05.35:183][287]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.15-01.05.35:183][287]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-01.05.35:183][287]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.15-01.05.35:183][287]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-01.05.35:183][287]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-01.05.35:183][287]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-01.05.35:183][287]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-01.05.35:185][287]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.15-01.05.35:203][287]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scarlett Solo 4th Gen)
+[2025.09.15-01.05.35:203][287]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-01.05.35:203][287]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-01.05.35:203][287]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-01.05.35:204][287]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.09.15-01.05.35:204][287]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.09.15-01.05.35:205][287]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.09.15-01.05.35:205][287]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.09.15-01.05.35:205][287]LogInit: FAudioDevice initialized with ID 4.
+[2025.09.15-01.05.35:206][287]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2025.09.15-01.05.35:206][287]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.09.15-01.05.35:209][287]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.15-01.05.35:211][287]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.15-11.05.35
+[2025.09.15-01.05.35:211][287]LogWorld: Bringing up level for play took: 0.002081
+[2025.09.15-01.05.35:213][287]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.09.15-01.05.35:217][287]PIE: Server logged in
+[2025.09.15-01.05.35:219][287]PIE: Play in editor total start time 0.064 seconds.
+[2025.09.15-01.05.41:477][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-01.05.41:477][ 18]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.15-01.05.41:477][ 18]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-01.05.41:478][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-01.05.41:478][ 18]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.09.15-01.05.41:481][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-01.05.41:484][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-01.05.41:495][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-01.05.41:495][ 18]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.09.15-01.05.41:496][ 18]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.09.15-01.05.41:497][ 18]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.09.15-01.05.41:503][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.09.15-01.05.41:573][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.09.15-01.05.50:490][988]Cmd: POLY SELECT ALL
+[2025.09.15-01.06.18:919][757]Cmd: TRANSACTION UNDO
+[2025.09.15-01.06.18:919][757]LogEditorTransaction: Undo Move Elements
+[2025.09.15-01.06.27:294][536]Cmd: TRANSACTION UNDO
+[2025.09.15-01.06.27:294][536]LogEditorTransaction: Undo Clicking on Elements
+[2025.09.15-01.06.28:214][601]Cmd: TRANSACTION UNDO
+[2025.09.15-01.06.28:214][601]LogEditorTransaction: Undo Clicking on Elements
+[2025.09.15-01.07.18:841][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.15-01.07.18:882][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.15-01.07.18:895][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.09.15-01.07.18:906][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.09.15-01.07.18:926][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.09.15-01.07.18:943][657]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.09.15-01.07.18:945][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/ThirdPersonMap30B24AEB496C9B1DA4DA45BCBD21364F.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2025.09.15-01.07.18:952][657]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.044
+[2025.09.15-01.07.18:953][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1
+[2025.09.15-01.07.18:953][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/C9C8NKPQ680JETAE5ROTT13A902FDC4ED22A7B4BE13AB549EC915C.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset'
+[2025.09.15-01.07.18:955][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J
+[2025.09.15-01.07.18:955][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/XWFFRCIJ8QK4NRO30ALA6J08C9ADF547F922DE385725AD32926B6B.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset'
+[2025.09.15-01.07.18:958][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW
+[2025.09.15-01.07.18:958][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/7JQC72ZY37QM4IT43WD5CW62D15D344D46BD511B4A958A2828C391.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset'
+[2025.09.15-01.07.18:960][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2
+[2025.09.15-01.07.18:961][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/O43ETCZTFMLWWH1CJ941H2A48693714BFBBEBF920005B6A032D061.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset'
+[2025.09.15-01.07.18:963][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR
+[2025.09.15-01.07.18:964][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/5PI42YRDC8HSSG6BVV2GRR475C817540F0DE1A7120469AD2D40CAD.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset'
+[2025.09.15-01.07.18:966][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96
+[2025.09.15-01.07.18:967][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/IM858T68EBXCBX1T2FNR964EAA152941A766DF9D1B8AA7D17808FC.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset'
+[2025.09.15-01.07.18:968][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR
+[2025.09.15-01.07.18:970][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/BEYC27T14FHBU6LF2F60RR4DAD78F747DBC9CA82511383E0C4C4F9.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset'
+[2025.09.15-01.07.18:972][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06
+[2025.09.15-01.07.18:973][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/CO9MG7REJF8N8AQFYRCI068B5BDD5B4343246D2DA309977E72BE35.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset'
+[2025.09.15-01.07.18:974][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF
+[2025.09.15-01.07.18:975][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/K2YM0JIRZ78IHGM8W2QBAFDE93AA9047BAB2F5CA249E95BAA0C0D9.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset'
+[2025.09.15-01.07.18:977][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I
+[2025.09.15-01.07.18:977][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/9H7TKAXH9DD8KI3TIXGI2I1D75ED2D4D7E285E4761C1BD6A204CFA.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset'
+[2025.09.15-01.07.18:979][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P
+[2025.09.15-01.07.18:979][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/OTJMGDDXDV5TI7982YKZ5P35FAC0BA482BBDFE9B24EF907F34D67D.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset'
+[2025.09.15-01.07.18:982][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF
+[2025.09.15-01.07.18:982][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/UUYHDUFQAXTRRN4RVOPIUFBA5F0E4549CA0F4F1D08D8A7617777B1.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset'
+[2025.09.15-01.07.18:984][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO
+[2025.09.15-01.07.18:985][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/9VVR39MG0K7W5GQIEFE7SOB41B8EBD4FABE9D10DC584AE3CA21CE3.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset'
+[2025.09.15-01.07.18:987][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C
+[2025.09.15-01.07.18:988][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/6B9RJI3FDPCETRKXUXCQ4C6BDC60DE4A14900BC5FAFB97D390FACE.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset'
+[2025.09.15-01.07.18:990][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL
+[2025.09.15-01.07.18:991][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/H8YL2PPHZPBTI74SUD0RNL08257B834E682354759F4AA74839CA0D.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset'
+[2025.09.15-01.07.18:993][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61
+[2025.09.15-01.07.18:993][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/Q7Y1URWWFS0TXGWUTO3S61FBA7A4FA4B21EF8A479A6EAF82DFEA5A.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset'
+[2025.09.15-01.07.18:996][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ
+[2025.09.15-01.07.18:996][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/6LXV4Y6DE3LUT705XNU4DZ4A83556243BE5F686F39F9B3B25D6CF5.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset'
+[2025.09.15-01.07.18:997][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8
+[2025.09.15-01.07.18:999][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/BBOCKSZY1GVHTFRX0PR0O8A246468D4404B3B4C5B845AE01747174.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset'
+[2025.09.15-01.07.19:001][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04
+[2025.09.15-01.07.19:002][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/1IKKDYS7RULH8FRYRPPF04618D0D1948040E3DFD89A994E3DB14DB.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset'
+[2025.09.15-01.07.19:004][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y
+[2025.09.15-01.07.19:004][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/9BWDWCNL7OZT2HTML9LK1Y035B97024E99806A39907387248B7039.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset'
+[2025.09.15-01.07.19:006][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN
+[2025.09.15-01.07.19:007][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/8RB55FM1HBEUVO4IOQC4YN41346ABB43F4D73F2E89D6B574653F1E.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset'
+[2025.09.15-01.07.19:009][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F
+[2025.09.15-01.07.19:009][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/CQR16QFDKKEYP53M51TV4F3C1C9D104DB40FB06E33CFAD15F8D2F8.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset'
+[2025.09.15-01.07.19:012][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR
+[2025.09.15-01.07.19:012][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/NMHOKL5LGQDOAAG00FUMZR708E9DB34806E69CAEC758B423CFFB17.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset'
+[2025.09.15-01.07.19:015][657]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG
+[2025.09.15-01.07.19:015][657]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/GK06JAEJ82TQ0GA2QB0DJG5844EEED4D6295B9D66BB1BAEECCC2A2.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset'
+[2025.09.15-01.07.19:027][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 185.593 ms (total: 613.255 ms)
+[2025.09.15-01.07.19:065][657]LogContentValidation: Display: Starting to validate 25 assets
+[2025.09.15-01.07.19:065][657]LogContentValidation: Enabled validators:
+[2025.09.15-01.07.19:065][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.15-01.07.19:065][657]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.15-01.07.19:065][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.15-01.07.19:065][657]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.15-01.07.19:065][657]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.15-01.07.19:065][657]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.15-01.07.19:065][657]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.09.15-01.07.26:340][387]Cmd: DELETE
+[2025.09.15-01.07.26:340][387]Cmd: ACTOR DELETE
+[2025.09.15-01.07.26:351][387]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.15-01.07.26:361][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.09.15-01.07.26:364][387]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.09.15-01.09.35:998][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.15-01.09.36:035][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.15-01.09.36:049][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.09.15-01.09.36:058][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.09.15-01.09.36:061][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OU/IRGVJ0KP3LXM5D34U4VDHB
+[2025.09.15-01.09.36:061][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/IRGVJ0KP3LXM5D34U4VDHBEECDDB3A467A5BDD275A1F8D1FB3B9FD.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OU/IRGVJ0KP3LXM5D34U4VDHB.uasset'
+[2025.09.15-01.09.36:063][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/2I/TGN50FIQXAF7MJ5KJGUFJS
+[2025.09.15-01.09.36:063][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/TGN50FIQXAF7MJ5KJGUFJS5497DE38484B0DB0DAEA7E8AC56588B9.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/2I/TGN50FIQXAF7MJ5KJGUFJS.uasset'
+[2025.09.15-01.09.36:065][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/B2/38GK9F5K516V1Y4JJC6P1B
+[2025.09.15-01.09.36:065][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/38GK9F5K516V1Y4JJC6P1B532D6FDD48BB59B093586DB438B7ABAA.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/B2/38GK9F5K516V1Y4JJC6P1B.uasset'
+[2025.09.15-01.09.36:068][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/4Q/G6ITSCFHP0WL6LWLMIN6D5
+[2025.09.15-01.09.36:068][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/G6ITSCFHP0WL6LWLMIN6D501B67E424F91803B8C08C2A0B4120374.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/4Q/G6ITSCFHP0WL6LWLMIN6D5.uasset'
+[2025.09.15-01.09.36:070][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/ZA/A2PVD65FL5NXEBJYFIIX25
+[2025.09.15-01.09.36:070][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/A2PVD65FL5NXEBJYFIIX25F68700D44AD70B92F5CF338BC196EECC.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/ZA/A2PVD65FL5NXEBJYFIIX25.uasset'
+[2025.09.15-01.09.36:073][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/TR/TB5AWRPWNZAPG40B9MRUUC
+[2025.09.15-01.09.36:073][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/TB5AWRPWNZAPG40B9MRUUCC1305EA44861194B561A22B079D21FAF.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/TR/TB5AWRPWNZAPG40B9MRUUC.uasset'
+[2025.09.15-01.09.36:075][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/1V/9MRY7WGH85ZJ2V51F9PS37
+[2025.09.15-01.09.36:075][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/9MRY7WGH85ZJ2V51F9PS37C22ECE614CBDB756691B90B16F1854CE.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/1V/9MRY7WGH85ZJ2V51F9PS37.uasset'
+[2025.09.15-01.09.36:077][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/RQ/G87OW08HKBDULP8EOAYZAR
+[2025.09.15-01.09.36:077][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/G87OW08HKBDULP8EOAYZARD9FF8C654B6D2FDEF4D806B1F4A9B85C.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/RQ/G87OW08HKBDULP8EOAYZAR.uasset'
+[2025.09.15-01.09.36:079][ 77]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/MT/S46SYWCCE23LEUE1GVA2QB
+[2025.09.15-01.09.36:079][ 77]LogSavePackage: Moving '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Saved/S46SYWCCE23LEUE1GVA2QB6A2A96C04F8AFA993CF2E2AEE73AD24C.tmp' to '../../../../../../Users/rhipr/Documents/GitHub/UE5-Portfolio/PortfolioPiece/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/MT/S46SYWCCE23LEUE1GVA2QB.uasset'
+[2025.09.15-01.09.36:095][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.657 ms (total: 710.912 ms)
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: Display: Starting to validate 9 assets
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: Enabled validators:
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.15-01.09.36:128][ 77]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.15-01.09.36:128][ 77]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.09.15-01.10.39:282][545]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2127.687012
+[2025.09.15-01.10.39:636][587]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.15-01.10.39:636][587]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2128.033447, Update Interval: 320.171509
+[2025.09.15-01.13.44:541][840]LogStreaming: Display: FlushAsyncLoading(401): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.15-01.13.49:306][283]Cmd: TRANSACTION UNDO
+[2025.09.15-01.13.49:306][283]LogEditorTransaction: Undo Place Objects
+[2025.09.15-01.13.50:713][398]LogStreaming: Display: FlushAsyncLoading(402): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: ================================================
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Total job queries 1,384, among them cache hits 220 (15.90%), DDC hits 1,120 (80.92%), Duplicates 3 (0.22%)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Tracking 1,161 distinct input hashes that result in 905 distinct outputs (77.95%)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: RAM used: 575.68 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Shaders Compiled: 41
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Jobs assigned 41, completed 41 (100%)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Average time worker was idle: 461.31 s
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.13 s
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Job execution time: average 1.56 s, max 2.67 s
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Job life time (pending + execution): average 1.61 s, max 2.73
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Shader code size: average 7.211 KiB, min 2.785 KiB, max 12.086 KiB
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.75 s
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Average processing rate: 3.49 jobs/sec
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Total thread time: 21.109 s
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Total thread preprocess time: 19.023 s
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Percentage time preprocessing: 90.12%
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Effective parallelization: 1.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    7 times, average 0.99 sec, max 1.06 sec, min 0.90 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.54 sec, max 0.60 sec, min 0.43 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    7 times, average 0.42 sec, max 0.48 sec, min 0.36 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.36 sec, max 0.41 sec, min 0.32 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 32.70% of total time (compiled    7 times, average 0.99 sec, max 1.06 sec, min 0.90 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.00% of total time (compiled    9 times, average 0.54 sec, max 0.60 sec, min 0.43 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.26% of total time (compiled    9 times, average 0.36 sec, max 0.41 sec, min 0.32 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                                 FLumenCardPS - 14.04% of total time (compiled    7 times, average 0.42 sec, max 0.48 sec, min 0.36 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.75% of total time (compiled    7 times, average 0.35 sec, max 0.40 sec, min 0.32 sec)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: === Material stats ===
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Materials Translated:    140
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Material Translation Only: 0.04 s (43%)
+[2025.09.15-01.14.16:249][142]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.09.15-01.14.16:250][142]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.09.15-01.14.16:250][142]LogShaderCompilers: Display: ================================================
